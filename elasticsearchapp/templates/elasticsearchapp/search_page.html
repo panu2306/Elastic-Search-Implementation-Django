@@ -1,0 +1,16 @@
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Search Author</h1>
+
+        <form method="post" action="{% url 'search_author' %}">
+          {% csrf_token %}
+          {# A more "HTML" way of creating the login form#}
+          <label for="name">Author:</label>
+          <input type="text" name="name" placeholder="Enter Author">
+
+          <input type="submit" name="" value="Submit">
+
+        </form>
+
+    </div>
+  </div>

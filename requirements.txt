@@ -1,0 +1,6 @@
+Django
+elasticsearch
+elasticsearch-dsl
+python-dateutil
+six
+urllib3
