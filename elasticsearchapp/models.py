@@ -25,3 +25,9 @@ class BlogPost(models.Model):
         )
         obj.save()
         return obj.to_dict(include_meta=True)
+
+class Movie(models.Model):
+    name = models.CharField(max_length=264)
+    year = models.IntegerField()
+
+    
